@@ -50,6 +50,7 @@ const App = () => {
                 <img src="https://alan.app/voice/images/previews/preview.jpg" className={classes.alanLogo} alt="logo" />
             </div>
             <NewsCards articles={newsArticles} activeArticle = {activeArticle} /> 
+            <h3>With a lot of help from <a href="https://www.youtube.com/channel/UCmXmlB4-HJytD7wek0Uo97A">JavaSciptMastery</a></h3>
         </div>
     )
 }
